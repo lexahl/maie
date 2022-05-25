@@ -14,7 +14,7 @@ tags = [
 
 Special Guest Lecturer at the London College of Communication in MA Design for Social Innovation and Sustainable Futures Course
 
-![photo of me lecturing infront of an engaged audience](/img/teach1.png "me teaching")
+![photo of me lecturing infront of an engaged audience](https://lexahl.github.io/maie/img/teach1.png "me teaching")
 
 <h3>about the workshops</h2>
 

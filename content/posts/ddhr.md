@@ -16,8 +16,8 @@ This project critiques human rights as framed by the UN Declaration of Human Rig
 While the UDHR is and has been used in liberatory movements and to work towards a fair, dignified, equal treatment of individuals and communities around the world, these same rights are a political tool that has also been used to justify imperialism, violence, and more. The UDHR can be seen as a political tool by its framing of the rights and freedoms of individuals in relation to the nation-state. For example, Article 9 states that “No one shall be subjected to arbitrary arrest, detention or exile.” Here, and in many other rights from the UDHR, the nation-state is “paradoxically the perpetrator of human rights violations and the body through which rights and freedoms are given to people” (source: Human Rights and Computation Course UAL CCI MA Internet Equalities, Cindy Ma) This project is a “deconstruction” of this framing by exploring the ideas that technologies, individuals, nature, and corporations can also be granters and violators of human rights.
 
 
-![screenshot of ddhr landing page that shows a mix rights from twitter, gpt-2, and UNDHR with images in the background showing an example of that right not being granted](/img/ddhr1.png "DDHR navigation page")
-![screenshot of ddhr twitter page with scraped tweets shown](/img/ddhr2.png "DDHR twitter data page")
+![screenshot of ddhr landing page that shows a mix rights from twitter, gpt-2, and UNDHR with images in the background showing an example of that right not being granted](https://lexahl.github.io/img/ddhr1.png "DDHR navigation page")
+![screenshot of ddhr twitter page with scraped tweets shown](https://lexahl.github.io/maie/img/ddhr2.png "DDHR twitter data page")
 
 ‘DDHR’ is a text data project to enhance awareness of the unevenness of human rights in specific contexts, and their entanglements with corporations and technologies through time.|
 

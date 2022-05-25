@@ -11,7 +11,7 @@ tags = [
 
 <a href="https://lexahl.github.io/maie/txt/intersectionalinternets.txt" target="_blank">click here for a plain text file of this page →</a>
 
-![black and white zine artwork](/img/zine1.png "welcome to the next chapter of social connection")
+![black and white zine artwork](https://lexahl.github.io/maie/img/zine1.png "welcome to the next chapter of social connection")
 
 
 <h3>about this project</h3>
@@ -40,4 +40,4 @@ This work will be published online (soon!) in a collaborative zine with MA stude
 
 <h3>v2 (Apr 2022)</h3>
 
-![black and white zine artwork](/img/zine2.jpg "who belongs on the moon? // who belongs in the future?")
+![black and white zine artwork](https://lexahl.github.io/maie/img/zine2.jpg "who belongs on the moon? // who belongs in the future?")

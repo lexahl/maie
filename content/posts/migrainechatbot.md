@@ -11,13 +11,13 @@ tags = [
 
 <a href="https://lexahl.github.io/maie/https://lexahl.github.io/maie/txt/migrainechatbot.txt" target="_blank">click here for a plain text file of this page →</a>
 
-![screenshot of the chatbot's website homepage](/img/migraine1.png "my migraines screenshot")
+![screenshot of the chatbot's website homepage](https://lexahl.github.io/maie/img/migraine1.png "my migraines screenshot")
 
 I designed this chatbot to assist me with talking about my migraines. I’ve had migraines for more than 9 years now. They started when I was 15. I usually get a couple of migraines each week. I know you can’t see my migraines, so I guess that it is hard to understand what they are like and how having migraines affects me.
 
 <a href="https://lexahl.github.io/migraine/" target="_blank">I DON'T NEED TO EXPLAIN THIS ALL TO YOU, BUT I WANT TO →</a>
 
-![screenshot of the chatbot in the middle of a conversation](/img/migraine2.png "chatbot conversation screenshot")
+![screenshot of the chatbot in the middle of a conversation](https://lexahl.github.io/maie/img/migraine2.png "chatbot conversation screenshot")
 
 
 <h3>about this project</h2>
