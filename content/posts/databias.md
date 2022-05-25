@@ -1,6 +1,6 @@
 +++
 author = "Alexandria Ahluwalia"
-title = ">> Data Biases in Research Workshops - Mar 2022"
+title = ">> Data Biases in Research Workshops"
 date = "2022-03-03"
 description = "Data Biases in Research Workshops"
 tags = [

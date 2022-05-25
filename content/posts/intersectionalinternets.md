@@ -1,6 +1,6 @@
 +++
 author = "Alexandria Ahluwalia"
-title = ">> Intersectional Internets Zine Work - Nov 2021"
+title = ">> Intersectional Internets Zine Work"
 date = "2021-11-10"
 description = "Intersectional Internets"
 tags = [

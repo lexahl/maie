@@ -1,6 +1,6 @@
 +++
 author = "Alexandria Ahluwalia"
-title = ">> Migraine Chatbot - Dec 2021"
+title = ">> Migraine Chatbot"
 date = "2021-12-10"
 description = "my migraines | a chatbot for the conversation that I am too tired to have"
 tags = [

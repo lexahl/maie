@@ -1,6 +1,6 @@
 +++
 author = "Alexandria Ahluwalia"
-title = ">> Engaging Critically with Data Around You: Ideas, Problems, and Resistance Methods Surrounding Data Biases - April 2022"
+title = ">> Ideas, Problems, and Resistance Methods Surrounding Data Biases"
 date = "2022-04-12"
 description = "Engaging Critically with Data Around You: Ideas, Problems, and Resistance Methods Surrounding Data Biases"
 tags = [

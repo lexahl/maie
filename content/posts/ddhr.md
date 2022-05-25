@@ -1,6 +1,6 @@
 +++
 author = "Alexandria Ahluwalia"
-title = ">> Digital Deconstruction of Human Rights - Apr 2022"
+title = ">> Digital Deconstruction of Human Rights"
 date = "2022-04-10"
 description = "Human Rights and Computation Project"
 tags = [

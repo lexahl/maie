@@ -1,6 +1,6 @@
 +++
 author = "Alexandria Ahluwalia"
-title = ">> Dreaming Disability Justice in HCI Workshop - April 2022"
+title = ">> Dreaming Disability Justice in HCI Workshop"
 date = "2022-04-22"
 description = "Dreaming Disability Justice in HCI: A CHI 2022 Virtual Workshop on Disability Justice in Human-Computer Interaction"
 tags = [
