@@ -1,0 +1,35 @@
+baseURL = ""
+title = "Alexandria Ahluwalia MA Portfolio"
+theme = "etch"
+languageCode = "en-UK"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  description = "Alexandria Ahluwalia is a postgraduate student in the Creative Computing Institute at the University of the Arts London. Her work and research focus on the critical study of data and digital technologies."
+  copyright = ">> MA Internet Equalities, Creative Computing Institute, University of the Arts London 2021 - 2022 © Alexandria Ahluwalia"
+  dark = "auto"
+  highlight = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = ">> projects <<"
+    title = "posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = ">> about<< "
+    title = "about"
+    url = "/about/"
+    weight = 30
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allows HTML in Markdown
+  unsafe = true
