@@ -1,5 +1,5 @@
 baseURL = ""
-title = "Alexandria Ahluwalia MA Portfolio"
+title = "ALEXANDRIA ((MAIE 2022))"
 theme = "etch"
 languageCode = "en-UK"
 enableInlineShortcodes = true
@@ -8,7 +8,7 @@ pygmentsUseClasses = true
 
 [params]
   description = "Alexandria Ahluwalia is a postgraduate student in the Creative Computing Institute at the University of the Arts London. Her work and research focus on the critical study of data and digital technologies."
-  copyright = ">> MA Internet Equalities, Creative Computing Institute, University of the Arts London 2021 - 2022 © Alexandria Ahluwalia"
+  copyright = ">> 2021 - 2022 © Alexandria"
   dark = "auto"
   highlight = true
 
