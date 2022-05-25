@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://lexahl.github.io/maie/"
 title = "Alexandria Ahluwalia MA Portfolio"
 theme = "etch"
 languageCode = "en-UK"
