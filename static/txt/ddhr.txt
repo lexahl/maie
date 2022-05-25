@@ -1,0 +1,575 @@
+In April 2022 for the course Human Rights and computation I started a project called the "Digital Deconstruction of Human Rights". DDHR - digital deconstruction of human rights - is a text data project to enhance awareness of the unevenness of human rights in specific contexts, and their entanglements with corporations and technologies through time. This project critiques human rights as framed by the UN Declaration of Human Rights, the UDHR, from 1948. Through a collection of text data about human rights, the imagery and various contexts, this project encourages the viewer to question “who has power to declare rights?” and “who can claim rights?” in a critique on the uneven distribution of rights and the antiquity of certain rights around the world today. The project is below and is approximately 8000 words. 
+
+While the UDHR is and has been used in liberatory movements and to work towards a fair, dignified, equal treatment of individuals and communities around the world, these same rights are a political tool that has also been used to justify imperialism, violence, and more. The UDHR can be seen as a political tool by its framing of the rights and freedoms of individuals in relation to the nation-state. For example, Article 9 states that “No one shall be subjected to arbitrary arrest, detention or exile.” Here, and in many other rights from the UDHR, the nation-state is “paradoxically the perpetrator of human rights violations and the body through which rights and freedoms are given to people.” This project is a “deconstruction” of this framing by exploring the ideas that technologies, individuals, nature, and corporations can also be granters and violators of human rights. 
+
+This project originated in February 2022 with the prompt to create a prototype of a data-driven artefact that explores bias in AI or other computational inequality. The Digital Deconstruction of Human Rights explores the social issues raised by human rights in the digital age using multiple text datasets. Over this process, I heard from family and friends about the "Freedom Convoy" protest in Canada, where people claim human rights violations for vaccine mandates and border-crossing rules. I heard about the Tigray War, the Russia-Ukraine war on Twitter, and I watched these topics, and their entanglements with human rights, take over the headlines and conversations in my circles. It became clearer that some voices are a lot louder than others when speaking about human rights, which led me to think about who can claim human rights, who is more human than who, and who and what can control human rights. 
+
+Twitter text data in this project was "scraped" selectively. There is hate speech on Twitter, and it did not to be included in this project. Embedding harm such as racism, sexism, hate speech, and other biases is not a new issue with data-based projects. Specifically on Twitter, Microsoft's Tay chatbot, "TayTweets," was an example of what could go wrong with using data from Twitter. Context: “In 2016, Microsoft’s Racist Chatbot Revealed the Dangers of Online Conversation The bot learned language from people on Twitter—but it also learned values.”
+
+Originally this project was going to generate “human rights” by fine-tuning GPT-2 to generate context relevant text, based on the data scraped from Twitter. However, as I continued to collected the data from Twitter and started playing around with text generation using GPT-2 and transformers, I noticed that some statements from Twitter and some statements generated with GPT-2 were very similar. Additionally, when reading some of the Twitter-claimed rights, I agreed with sentiment some of them (Everyone is entitled to health care, Source: Twitter, Date: 2/17/2022) and I noticed that many of the rights were supported by others. I understood support on Twitter as demonstrated by likes, retweets, and comments on the post. Another important consideration is that I had no way of knowing if a person authored the tweet or if a bot did. Because of the potenial overlap of computer generated statements, the fact that I could not know if a person had shared the tweet, and the  courious similarity, I decided to not continue with fine-tuning GPT-2 to generate text data.
+
+The text data from Twitter, GPT-2, and UDHR was “cleaned,” meaning that it was modified for conformity and exportability, using Google Sheets. This tool was chosen because of my previous knowledge and experiences with Excel functions, the ease of export, and the way that I can share a viewable link publicly. 
+
+Missing from this project are Tweets in languages besides English. While users from many places around the world can Tweet in English, many voices and opinions are not part of this project. Furthermore, all perspectives and voices that do not share specific views and statements about rights on Twitter are not included. These are some of the loud voices, but these voices often speak over others. As this project is to create a discussion about human rights, I hope it can create space for more perspectives and more voices to be listened to.
+
+Everyone has the right to privacy in their homes, their communications and their personal affairs
+Source: Twitter
+Date:2/10/2022
+Context:A "chilling" investigation from a Massachusetts lawmaker alleges Amazon's Ring smart doorbell has gaping privacy concerns - including that footage of you and your family could potentially be used, shared and even sold by law enforcement (source: https://abcnews.go.com/Business/senator-blasts-amazons-ring-doorbell-open-door-privacy/story?id=67162384).
+Does everyone have the right to privacy in their homes, their communications and their personal affairs?
+
+Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay
+Source: UDHR
+Date: 10/12/1948
+Context: Fourteen-hour shifts were common because delivery service providers wouldn’t allow drivers to return any packages from their routes and the pressure to meet delivery rates meant Meyers used a plastic bottle to go to the bathroom on a daily basis (source: https://www.theguardian.com/technology/2021/mar/11/amazon-delivery-drivers-bathroom-breaks-unions). But the fact that Amazon delivery drivers pee in bottles and coffee cups in their vans is not invented. It has been well-documented, and is a huge talking point among many delivery drivers. It is one of the most universal concerns voiced by the many Amazon delivery drivers around the country that Motherboard has interviewed. Delivery workers, who drive Amazon emblazoned vans, often deliver up to 300 packages a day on a 10 hour shift. If they take too long, they can be written up and fired. So spending time locating and using a bathroom is not always an option (source: https://www.vice.com/en/article/k7amyn/amazon-denies-workers-pee-in-bottles-here-are-the-pee-bottles). 
+Does everyone have the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay?
+
+Everyone has the right to breathe clean air and drink clean water
+Source: Twitter
+Date:2/17/2022
+Context:Indigenous First Nations communities in Canada have been grappling with the issue of poor, dangerous water quality for decades, impacting tens of thousands of people. Despite government promises to improve water treatment plants, dozens of native reserves across Canada still lack clean drinking water (source: https://amp.observers.france24.com/en/americas/20220201-canada-indigenous-first-nations-water-quality-tiktok). There are hundreds of boil water advisories in Canada (source: https://www.watertoday.ca/map-graphic.asp). 
+Does everyone have the right to breathe clean air and drink clean water?
+
+Everyone has the right to protest police brutality
+Source: GPT-2
+Date:3/10/2022
+Context:French police banned demonstrations planned outside the U.S. Embassy and on the lawns near the Eiffel Tower in Paris on Saturday as protests mount around the world over the death of George Floyd in Minneapolis. The Paris police department said on Friday it had decided to ban the demonstrations because of the risks of social disorder and health dangers from large gatherings due to the coronavirus pandemic (source:https://www.reuters.com/article/us-minneapolis-police-protests-france-idUSKBN23C1HL). 
+Does everyone have the right to protest police brutality?
+
+All human beings are respected and loved
+Source: Twitter
+Date: 2/17/2022
+Context: Only 29% of Americans think Trump is respected in the world(source:https://www.vox.com/policy-and-politics/2017/2/10/14575688/trump-respect-foreign-leader) while Donald Trump has said 'Everybody loves me' (source: https://edition.cnn.com/videos/us/2015/07/08/trump-everyone-loves-me-intvw.cnn). 
+Are all human beings are respected and loved?
+
+No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms
+Source: UDHR
+Date: 12/10/1948
+Context: The kafala system regulates the lives of tens of millions of migrant labourers in the Middle East, but growing outrage over human rights abuses, racism, and gender discrimination has fuelled calls for reform (source: https://www.cfr.org/backgrounder/what-kafala-system). 
+Are there people being held in slavery or servitude? and is it prohibited in all their forms?
+
+Everyone has the right to protest on Parliament Hill
+Source: Twitter
+Date: 2/17/2022
+Context: In 2022 a few hundred protesters, many waving or draped in Canadian flags, gathered on the grounds of Parliament Hill on Saturday to continue voicing their disapproval and frustration with COVID-19 vaccine mandates and other public-health restrictions (source: https://ottawa.citynews.ca/amp/local-news/anti-mandate-protesters-gather-parliament-hill-saturday-5129675). In 2017 Indigenous activists and their supporters built a large teepee just outside Ottawa’s parliamentary grounds — a visual reminder of issues they say are still unresolved. The demonstrators originally planned to erect the teepee on Parliament Hill but were blocked by police. Nine demonstrators were arrested and detained on Wednesday night but were released later on (source: https://www.globalcitizen.org/de/content/teepee-on-parliament-hill/)
+Does everyone have the right to protest on Parliament Hill?
+
+Everyone has the right to discriminate
+Source: GPT-2
+Date: 3/10/2022
+Context: Meta Platforms will allow Facebook and Instagram users in some countries to call for violence against Russians and Russian soldiers in the context of the Ukraine invasion, according to internal emails seen by Reuters on Thursday, in a temporary change to its hate speech policy (source: https://www.reuters.com/world/europe/exclusive-facebook-instagram-temporarily-allow-calls-violence-against-russians-2022-03-10/). On Facebook’s ad-buying website, however, advertisers can choose to include or exclude certain demographic “affinities” from ads in the United States. For instance, they can exclude African-American, Asian-American and four “types” of Hispanic-bilingual, English-dominant, Spanish-dominant or all of the above. Facebook lists the number of people who match those affinities within its ads tool (source: https://www.nytimes.com/2016/11/12/business/media/facebook-will-stop-some-ads-from-targeting-users-by-race.html).
+Does everyone have the right to discriminate?
+
+Everyone has the right to leave any country, including his own, and to return to his country
+Source: UDHR
+Date:12/10/1948
+Context:The Freedom Convoy was sparked by the introduction last month of a new rule that all truckers must be vaccinated to cross the US-Canada border, but the protests have morphed into broader challenges to Covid health restrictions. (source:https://www.bbc.com/news/world-us-canada-60281088). 
+Does everyone have the right to leave any country, including his own, and to return to his country?
+
+Everyone has the right to use the internet anonymously
+Source: Twitter
+Date:2/17/2022
+Context: Meta's Internet service, called Free Basics, is offered via Meta Connectivity (formerly Facebook Connectivity) and is supposed to provide users with access to communication tools, health information, education resources and other low-bandwidth services at no charge (source:https://www.business-standard.com/article/technology/meta-charged-users-for-free-internet-in-developing-countries-report-122012600317_1.html). Free Basics grants Facebook access to unique streams of data about the habits and interests of users in developing countries. The company collects data about Free Basics users by monitoring their activities on Facebook — and throughout the Free Basics app (source:https://advox.globalvoices.org/2017/07/27/facebooks-free-basics-doesnt-connect-you-to-the-global-internet-but-it-does-collect-your-data/).
+Does everyone have the right to use the internet anonymously?
+
+ABOUT TWITTER TEXT DATA 
+This data was collected from February 10, 2022 until March 27, 2022 for a total of 10 working hours. This text data was collected from twitter by searching for tweets in English that contain the exact words "Everyone has the right to", "All human beings are", and "Everyone is entitled to". The tweets that contained at least one of those sentence segments were then copied and pasted into an excel document. The entire tweet was not always copied, only the sentence of phrase containing one of those segments. Along with the raw text of the tweet, a link to the tweet the data was sourced from and the date in which the data was added to the spreadsheet was collected.
+
+Many tweets were not included during this data collection process. Tweets that focused or mentioned a specific person or group of people were not included. Repeat tweets/statements were also not collected; this also excluded tweets that repeated any rights from the UDHR. These decisions were made by myself and, therefore, are biased by my positionality and experiences as to what could and and could not be seen as harmful.
+
+As someone who has held roles working with data, I had the tools and skills to complete this data collection task. I also have had stable access to the internet when needed and a laptop computer with the required software. I did not require additional training or support to complete this data collection. In previous experiences working with data in a paid position, I have made CAD$20-$75, approximately GBP£12-£45, per hour. I was not paid for this project but could have billed around CAD$750, approximately GBP£450, for my labour.
+
+However, my rate is not necessarily typical for data collection tasks. For example, on fiverr.com, a digital platform for freelance services, time and labour for data collection of this type can be hired for CAD$6.62, GBP£3.99, per hour. This work is done by "Virtual Assistants" located in Bangladesh, Pakistan, Indonesia, and around the world. I have not included the specific listings at this rate, but they can be found >here< on fiverr.com. 
+
+My educational background does not determine my rate; many freelancers on fiverr.com hold similar or more relevant university credentials, a Bachelor of Science Degree. My experience in data-related roles does not determine my rate either. The freelancers on fiverr.com are highly experienced and, from what some users have described on the platform, have worked more hours with data collection and the relevant software than I ever have. Everyone, without any discrimination, has the right to equal pay for equal work. Does everyone, without any discrimination, have the right to equal pay for equal work?
+
+Here are 216 lines of the Twitter text data:
+EVERYONE HAS THE RIGHT TO BREATHE CLEAN AIR AND DRINK CLEAN WATER
+EVERYONE HAS THE RIGHT TO LIVE THEIR LIVES
+EVERYONE IS ENTITLED TO WEAR A MASK
+EVERYONE HAS THE RIGHT TO BE WRONG
+EVERYONE HAS THE RIGHT TO HEAR ALL SIDES
+EVERYONE HAS THE RIGHT TO MAKE MEDICAL CHOICES FOR THEMSELVES
+EVERYONE HAS THE RIGHT TO LOVE
+EVERYONE HAS THE RIGHT TO BE AS RACIST AS THEY LIKE
+EVERYONE HAS THE RIGHT TO DO WHATEVER TF THEY WANT WETHER THAT BE SEXUALLY OR MEDICALLY
+EVERYONE HAS THE RIGHT TO ESTABLISH BOUNDARIES
+ALL HUMAN BEINGS ARE BIASED
+EVERYONE HAS THE RIGHT TO PLAN THEIR FUTURE AND TAKE THE STEPS NECESSARY TO REACH THEIR GOALS
+EVERYONE HAS THE RIGHT TO MAKE MISTAKES
+EVERYONE HAS THE RIGHT TO FEEL REPRESENTED AND TO FEEL BEAUTIFUL IN WHATEVER STAGE THEY ARE
+EVERYONE HAS THE RIGHT TO WATCH RUSSIAN OR WESTERN MEDIA AND MAKE UP THEIR OWN MINDS TO WHAT IS THE TRUTH
+EVERYONE HAS THE RIGHT TO A SAFE WORKPLACE
+EVERYONE HAS THE RIGHT TO DRAW EVERYTHING AS THEY LIKE
+EVERYONE HAS THE RIGHT TO LOVE AND BE LOVED
+ALL HUMAN BEINGS ARE MORE THAN ONE THING
+EVERYONE HAS THE RIGHT TO BE MAD ACTUALLY
+ALL HUMAN BEINGS ARE EVIL
+EVERYONE HAS THE RIGHT TO MAKE AN HONEST LIVING VACCINATED OR NOT
+EVERYONE HAS THE RIGHT TO CELEBRATE PROCESS
+EVERYONE HAS THE RIGHT TO FEEL SAFE
+ALL HUMAN BEINGS ARE FIVE STARS UNTIL PROVEN OTHERWISE
+EVERYONE IS ENTITLED TO BE SAD
+EVERYONE IS ENTITLED TO THEIR OPINION AS LONG AS IT SUPPORTS THE MAJORITY
+EVERYONE HAS THE RIGHT TO DECIDE WHICH HILL THEY’LL DIE ON
+EVERYONE IS ENTITLED TO AFFORDABLE AND ADEQUATE HOUSING
+ALL HUMAN BEINGS ARE INHERENTLY FLAWED BUT THE ACHIEVEMENTS OF STALIN FOR EXAMPLE FAR OUTWEIGH HIS MISTAKES
+EVERYONE HAS THE RIGHT TO A FULL LIFE
+EVERYONE HAS THE RIGHT TO JUDGE BUT WE ALSO HAVE THE RIGHT TO IGNORE IT
+EVERYONE HAS THE RIGHT TO REACT.
+ALL HUMAN BEINGS ARE NOT SAFE FROM BEING REJECTED BY SOCIETY
+ALL HUMAN BEINGS ARE GUILTY FROM BIRTH BECAUSE OF INHERITED ORIGINAL SIN
+EVERYONE HAS THE RIGHT TO THE TRUTH
+ALL IN ALL HUMAN BEINGS ARE EARTHS RIGHTFUL OWNERS
+EVERYONE HAS THE RIGHT TO CALL IT WHAT IT WAS
+EVERYONE HAS THE RIGHT TO CLEAN AND SAFE WATER
+ALL HUMAN BEINGS ARE PEOPLE
+ALL HUMAN BEINGS ARE GIVEN THE GIFT OF FREE WILL
+EVERYONE HAS THE RIGHT TO KNOW WHO THEIR BIOLOGICAL PARENTS ARE
+EVERYONE HAS THE RIGHT TO LIVE
+ALL HUMAN BEINGS ARE MOVING TOWARDS A COMMON GOAL
+EVERYONE HAS THE RIGHT TO COMPLAIN ABOUT INFLATION AND HIGH GAS PRICES
+EVERYONE HAS THE RIGHT TO CRITICISE ABOUT ANYTHING
+EVERYONE HAS THE RIGHT TO ACCESS THE INTERNET
+ALL HUMAN BEINGS ARE ILLEGAL
+EVERYONE HAS THE RIGHT TO CHOOSE WHAT IS ALIGNED TO THEIR PURPOSE ON THIS EARTH
+EVERYONE HAS THE RIGHT TO REFUSE WORK
+EVERYONE HAS THE RIGHT TO IDENTIFY HOWEVER THEY LIKE
+EVERYONE IS ENTITLED TO KNOW
+ALL HUMAN BEINGS ARE RESPECTED
+ALL HUMAN BEINGS ARE INDISPENSABLE
+ALL HUMAN BEINGS ARE ONLY TRYING TO HONOR UNIVERSAL VALUES AND NEEDS
+EVERYONE HAS THE RIGHT TO LIVE IN THE WORLD
+EVERYONE HAS THE RIGHT TO LEAVE ANY COUNTRY INCLUDING HIS OWN AND TO RETURN TO HIS COUNTRY UNLESS A BUNCH OF WHINERS WITH TRUCKS SAY NO
+EVERYONE HAS THE RIGHT TO LIVE OUT THEIR NATURAL LIFE AND SHOULD
+ALL HUMAN BEINGS ARE UNDER THE RISK
+EVERYONE HAS THE RIGHT TO BUY FOOD
+EVERYONE HAS THE RIGHT TO SPEAK UP FOR THEIR POLITICAL PARTY
+EVERYONE HAS THE RIGHT TO LEARN WELSH
+EVERYONE HAS THE RIGHT TO WIN
+EVERYONE HAS THE RIGHT TO REMAIN SILENT
+EVERYONE HAS THE RIGHT TO GO FOR A NIGHT OUT
+ALL HUMAN BEINGS ARE LIARS
+ALL HUMAN BEINGS ARE CAPABLE OF LEGENDARY FEATS OF HYPOCRISY
+EVERYONE HAS THE RIGHT TO CHEER FOR ANY ATHLETES
+EVERYONE HAS THE RIGHT TO COME TO THIS COUNTRY THAT’S WHY WE HAVE A SYSTEM IN PLACE TO CONTROL WHO IS ABLE TO COME IN
+ALL HUMAN BEINGS ARE TO THEIR FAMILIES
+ALL HUMAN BEINGS ARE EITHER BORING ASF OR JUST STRAIGHT UP HORRIBLE PEOPLE
+EVERYONE HAS THE RIGHT TO WORK REGARDLESS OF COVID VAX STATUS
+EVERYONE HAS THE RIGHT TO SEARCH FOR INDIVIDUAL EXPERIENC
+ALL HUMAN BEINGS ARE THE PART OF NATURE OR COSMOS
+EVERYONE HAS THE RIGHT TO BE WITH THEIR LOVED ONES WHEN THEY TRAGICALLY PASS
+EVERYONE HAS THE RIGHT TO BE TAKEN SERIOUSLY BY MEDICAL PROFESSIONALS
+EVERYONE HAS THE RIGHT TO DECIDE IF THEY'RE GOING TO BE A GROWN ASS ADULT OR WHINY BABY
+EVERYONE HAS THE RIGHT TO THEIR OPINION EVEN WHEN THEY’RE WRONG
+ALL HUMAN BEINGS ARE ON THE RIGHT PATH
+EVERYONE HAS THE RIGHT TO SELF INTEREST
+EVERYONE HAS THE RIGHT TO GIVE A BAD OPINION ON ANY ORGANISATION THAT HAS WRONGED THEM
+ALL HUMAN BEINGS ARE CREATED IN THE IMAGE OF GOD
+ALL HUMAN BEINGS ARE VALUABLE
+EVERYONE HAS THE RIGHT TO LEAVE OR CONTINUE SUPPORTING THE BROWNS
+EVERYONE HAS THE RIGHT TO BE INVOLVED IN POLITICS
+EVERYONE HAS THE RIGHT TO PROTEST WHATEVER THEY CHOOSE TO SUPPORT
+EVERYONE HAS THE RIGHT TO BE DEAD WRONG
+ALL HUMAN BEINGS ARE INTERESTED IN POLITICS
+EVERYONE HAS THE RIGHT TO LEAVE A RELATIONSHIP SAFELY.
+ALL HUMAN BEINGS ARE CLUMPS OF CELLS
+EVERYONE HAS THE RIGHT TO TELL THE QUEEN THEY DIDN’T AGREE
+EVERYONE HAS THE RIGHT TO CRITICIZE PUBLICLY ELECTED OFFICIALS IN THIS COUNTRY - IT’S CALLED THE THE CONSTITUTION.
+ALL HUMAN BEINGS ARE IMPORTANT
+ALL HUMAN BEINGS ARE BASICALLY CON ARTISTS
+EVERYONE HAS THE RIGHT TO LAUGH AT ME TILL THE END OF TIME BUT I WANT TO BELIEVE
+EVERYONE HAS THE RIGHT TO HAVE ONE OR SEVERAL IF YOU DON'T WANT ONE DON'T BUY ONE AK-47S ARE A SOLID OPTION
+EVERYONE HAS THE RIGHT TO CHOOSE A LIFESTYLE OR A RITUAL
+EVERYONE HAS THE RIGHT TO BE SEEN
+EVERYONE HAS THE RIGHT TO DECIDE WHAT IS AND ISN’T TRAUMATIZING FOR THEMSELVES
+ALL HUMAN BEINGS ARE TWO THINGS FLAWED AND HUMAN
+ALL HUMAN BEINGS ARE DIFFERENT ENOUGH
+ALL HUMAN BEINGS ARE ENTITLED TO EQUAL HUMAN RIGHTS
+ALL HUMAN BEINGS ARE WRITERS
+EVERYONE HAS THE RIGHT TO BOYCOTT ANYTHING THEY CHOOSE
+ALL HUMAN BEINGS ARE ONE
+ALL HUMAN BEINGS ARE RESPECTED AND LOVED
+ALL HUMAN BEINGS ARE FULL OF DESIRES AND STUPIDITIES
+EVERYONE HAS THE RIGHT TO POST WHATEVER THEY WANT
+ALL HUMAN BEINGS ARE MY OWN
+EVERYONE IS ENTITLED TO ART
+EVERYONE HAS THE RIGHT TO BE PROUD OF WHO THEY ARE
+ALL HUMAN BEINGS ARE INHERENTLY EVIL
+EVERYONE IS ENTITLED TO HEALTH CARE
+EVERYONE HAS THE RIGHT TO LIVE WITHOUT ILLNESS AND DISEASE WHERE POSSIBLE
+EVERYONE HAS THE RIGHT TO PLAY HOW THEY WANT
+ALL HUMAN BEINGS ARE EQUAL ALL OVER THE WORLD
+EVERYONE HAS THE RIGHT TO HAVE A REAL BANNER
+EVERYONE HAS THE RIGHT TO PROTEST ON PARLIAMENT HILL
+ALL HUMAN BEINGS ARE LITTLE BABIES PRETENDING TO BE ADULTS
+EVERYONE HAS THE RIGHT TO LASH OUT AT LEAST ONCE
+EVERYONE IS ENTITLED TO APPROPRIATE COMPENSATION FOR THEIR WORK
+EVERYONE IS ENTITLED TO BE WHO THEY ARE BORN AFTER ALL WE ARE BORN
+ALL HUMAN BEINGS ARE SUSCEPTIBLE TO CORRUPTION
+EVERYONE HAS THE RIGHT TO QUESTION VALIDITY
+EVERYONE HAS THE RIGHT TO BODILY AND PSYCHOLOGICAL INTEGRITY
+EVERYONE HAS THE RIGHT TO RECEIVE A SECOND CHANCE AT LEAST WE GIVE ANOTHER OPPORTUNITY FOR THEM TO REFLECT THEIR WRONGDOINGS BUT IF THEY KEEP DOING THE SAME THING THEN IT'S BETTER TO CUT THEM OFF
+EVERYONE HAS THE RIGHT TO BE UPSET IF THEIR FAVORITE CHARACTER ISN’T IN THE PROMOTIONAL STUFF
+ALL HUMAN BEINGS ARE ALSO DREAM BEINGS
+ALL HUMAN BEINGS ARE HYPOCRITES
+EVERYONE HAS THE RIGHT TO CALL WHOEVER THEY WANT TRASH
+EVERYONE HAS THE RIGHT TO DREAM
+EVERYONE HAS THE RIGHT TO THEIR OWN VIEWPOINT
+EVERYONE HAS THE RIGHT TO DEFEND THEIR LIFE
+ALL HUMAN BEINGS ARE LIKE THIS
+ALL HUMAN BEINGS ARE BEAUTIFUL
+EVERYONE HAS THE RIGHT TO PEE
+ALL HUMAN BEINGS ARE BORN WITH WORTH
+ALL HUMAN BEINGS ARE SUPPOSED TO HAVE THEIR OWN LIBERTIES
+EVERYONE HAS THE RIGHT TO BELIEVE FAIRY STORIES
+EVERYONE HAS THE RIGHT TO TALK ABOUT WHAT THEY LOVE AND ADMIRE
+EVERYONE HAS THE RIGHT TO FREEDOM FROM FEAR
+EVERYONE HAS THE RIGHT TO FORCE PEOPLE TO LISTEN TO THEIR JOKES
+EVERYONE HAS THE RIGHT TO SELL THEIR NFTS
+EVERYONE HAS THE RIGHT TO THE BENEFITS OF THAT TRADE ROUTE
+EVERYONE HAS THE RIGHT TO WEAR A MASK IF THEY WANT BUT NEVER EVER IS IT ALRIGHT TO VIRTUE SIGNAL ABOUT IT IN PUSHING A FALSE NARRATIVE
+ALL HUMAN BEINGS ARE MISERABLE CREATURES
+EVERYONE HAS THE RIGHT TO A POSITIVE FUTURE
+EVERYONE HAS THE RIGHT TO WRITE FICTION.
+EVERYONE HAS THE RIGHT TO COMMENT AS MUCH AS THEY UNDERSTAND AND THINK
+ALL HUMAN BEINGS ARE SUBJECT TO THE SAME BASIC ECONOMIC FORCES
+EVERYONE HAS THE RIGHT TO DECIDE WHETHER THEY WANT TO TAKE THE COVID SHOT IN THEIR BODY OR NOT
+EVERYONE HAS THE RIGHT TO FREE TRAVEL
+EVERYONE HAS THE RIGHT TO CHOOSE WHAT THEY DO WITH THEIR LIVES
+EVERYONE HAS THE RIGHT TO USE THE INTERNET ANONYMOUSLY.
+EVERYONE HAS THE RIGHT TO USE PUBLIC TRANSPORT WITHOUT FEAR OF ASSAULT OR ABUSE
+EVERYONE HAS THE RIGHT TO A BRASSERIE AT THEIR STREET CORNER WITH A TERRACE TO PEOPLE-WATCH.
+EVERYONE HAS THE RIGHT TO HAVE ASSUMPTIONS
+EVERYONE HAS THE RIGHT TO KNOW
+EVERYONE IS ENTITLED TO FOLLOW ANYONE
+ALL HUMAN BEINGS ARE THE SAME
+ALL HUMAN BEINGS ARE STILL LIVING IN PRIMITIVE SOCIETY
+EVERYONE HAS THE RIGHT TO CRITICIZE WHEN THE NEGATIVES ARE MORE THAN THE POSITIVES
+EVERYONE HAS THE RIGHT TO OWN A HOME
+EVERYONE HAS THE RIGHT TO JUSTICE
+EVERYONE HAS THE RIGHT TO HOLD HARRY ACCOUNTABLE FOR HIS RACISM WITHIN SEVERAL YEARS
+EVERYONE HAS THE RIGHT TO HOPE
+ALL HUMAN BEINGS ARE IDENTICAL
+ALL HUMAN BEINGS ARE RESPONSIBLE FOR MAKING SURE THAT THE ATROCITIES THAT OCCURRED NEVER HAPPEN AGAIN
+EVERYONE HAS THE RIGHT TO BE HAPPY
+EVERYONE HAS THE RIGHT TO FEEL UNCOMFORTABLE IN ANY SITUATION BUT WITH THAT BEING SAID I HOPE THEY GET LEFT IN A DITCH SOMEWHERE
+ALL HUMAN BEINGS ARE GROSS IN ONE WAY OR ANOTHER
+ALL HUMAN BEINGS ARE WORTHY OF SYMPATHY IF THEY ARE HURT OR DYING
+EVERYONE HAS THE RIGHT TO DO WHAT THEY WANT AND ACT AS THEY WANT. NO ONE HAS THE RIGHT TO CONTROL THEM.
+ALL HUMAN BEINGS ARE ENTREPRENEURS
+EVERYONE HAS THE RIGHT TO EVALUATE
+EVERYONE IS ENTITLED TO THEIR OWN PERSONAL TASTES WITHOUT HAVING TO JUSTIFY THEM TO ANYONE
+EVERYONE HAS THE RIGHT TO SHINE
+EVERYONE HAS THE RIGHT TO ANONYMITY
+EVERYONE HAS THE RIGHT TO DEMAND FOR PAY RISE
+EVERYONE HAS THE RIGHT TO CROSS THE BORDER
+EVERYONE HAS THE RIGHT TO RUN BUT NOT EVERYONE IS FIT TO LEAD
+ALL HUMAN BEINGS ARE FLAWED
+EVERYONE HAS THE RIGHT TO MOVE ON
+EVERYONE HAS THE RIGHT TO THROW YOU OUT OF CONGRESS FOR BEING A MORON
+EVERYONE IS ENTITLED TO A BREAK
+EVERYONE HAS THE RIGHT TO DECIDE WHETHER TO GET PREGNANT OR NOT TO GET PREGNANT.
+ALL HUMAN BEINGS ARE EQUAL REGARDLESS OF THEIR COLORS
+EVERYONE HAS THE RIGHT TO QUESTION IF THEY FALL FOR JUSTICE
+EVERYONE HAS THE RIGHT TO CHOOSE WHAT TO DO
+EVERYONE HAS THE RIGHT TO FREE SPEECH
+EVERYONE HAS THE RIGHT TO PLAY AND HAVING LAWS SHOULD NOT DEPRIVE PEOPLE OF ACCESS TO THE GAME
+EVERYONE HAS THE RIGHT TO BE HORNY
+EVERYONE HAS THE RIGHT TO BE HAPPY
+EVERYONE HAS THE RIGHT TO BE HOMESCHOOLED
+EVERYONE HAS THE RIGHT TO PRIVACY IN THEIR HOMES THEIR COMMUNICATIONS AND THEIR PERSONAL AFFAIRS.
+ALL HUMAN BEINGS ARE MY NEIGHBORS
+EVERYONE IS ENTITLED TO THEIR UNDERSTANDING ON THE SAID POSTED PIECE
+EVERYONE HAS THE RIGHT TO BUY AND SELL
+EVERYONE HAS THE RIGHT TO EXPRESS THEM TO POTENTIAL PARTNERS
+EVERYONE HAS THE RIGHT TO EVERYTHING
+ALL HUMAN BEINGS ARE SIMILAR IN MANY WAYS THAN YOU CAN EVEN THINK OF
+EVERYONE IS ENTITLED TO HOUSING
+ALL HUMAN BEINGS ARE ALLOWED BASIC LIFE-SAVING SERVICES FROM HOSPITALS
+EVERYONE HAS THE RIGHT TO SELF AGENCY TO USE DRUGS
+ALL HUMAN BEINGS ARE STRONGER
+EVERYONE HAS THE RIGHT TO A COMFORTABLE LIFE
+EVERYONE HAS THE RIGHT TO BE THICK
+EVERYONE HAS THE RIGHT TO DECIDE WHETHER OR NOT TO PROVIDE VACCINATION RECORDS TO THEIR EMPLOYER
+ALL HUMAN BEINGS ARE REGULATED
+EVERYONE HAS THE RIGHT TO BE STUPID
+EVERYONE HAS THE RIGHT TO BE OBNOXIOUS VAPID ASSHATS
+EVERYONE HAS THE RIGHT TO MEDICAL PRIVACY
+EVERYONE HAS THE RIGHT TO ASSESS THEIR OWN LEVEL OF RISK FREELY
+ALL HUMAN BEINGS ARE EQUAL BRO
+EVERYONE HAS THE RIGHT TO TALK ABOUT OLD DRAMAS
+ALL HUMAN BEINGS ARE TERRIBLE
+
+ABOUT GPT-2 TEXT DATA
+This text data was generated using a transformers model called GPT-2. Text generation is used for many things, from generating alt-text for images to creating Twitter bots. For those who can code, Twitter bots can be created using GPT-2 in only 100 lines of code (source: https://towardsdatascience.com/how-to-make-a-gpt2-twitter-bot-8669df60e60a).
+
+Text generation can also be used to spread misinformation. In the early pandemic, it was claimed that "Nearly Half Of Accounts Tweeting About Coronavirus Are Likely Bots" (source: https://www.npr.org/sections/coronavirus-live-updates/2020/05/20/859814085/researchers-nearly-half-of-accounts-tweeting-about-coronavirus-are-likely-bots?t=1648479994148). Additionally, "Twitter Bots Are a Major Source of Climate Disinformation". They account for "25% of the total tweets about climate change on most days" (source: https://www.scientificamerican.com/article/twitter-bots-are-a-major-source-of-climate-disinformation/). Misinformation is a human rights issue, and text generation is entangled in this.
+
+Context: The current blurring of fact and fiction impacts our voting patterns and political views, and there is much evidence to suggest that the spread of fake news through online media platforms is to blame. Furthermore, studies show that 40% of health news shared online is fake, with vaccines a big area of concern (source: https://www.humanrightspulse.com/mastercontentblog/fake-news-and-its-implications-for-human-rights).
+
+Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receives and impart information and ideas through any media and regardless of frontiers. Does everyone have the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receives and impart information and ideas through any media and regardless of frontiers?
+
+Here are 200 lines the GPT-2 text data:
+EVERYONE HAS THE RIGHT TO SUE IF HE OR SHE IS ACCUSED
+EVERYONE HAS THE RIGHT TO DEMAND THAT THE GOVERNMENT PROVIDE THE LEGAL, POLITICAL, AND ECONOMIC SERVICES THE CHILDREN
+EVERYONE HAS THE RIGHT TO TELL ITS OWN PERSON
+EVERYONE HAS THE RIGHT TO FILE A CLAIM OF DEFAMATION.
+EVERYONE HAS THE RIGHT TO HAVE A BABY, HAVE SEX WITH EVERY WOMAN, HAVE SEX WITH EVERYONE ELSE
+EVERYONE HAS THE RIGHT TO SUE A COMPANY, TO USE ITS POWER TO SUE AN AGENT FOR WRONGDOING
+EVERYONE HAS THE RIGHT TO VOTE, SAYS THE NATIONAL PARTY'S ELECTION DIRECTOR, TOM KLEMENTEN
+EVERYONE HAS THE RIGHT TO MAKE DECISIONS BASED SOLELY ON THE PREFERENCES OF THEIR RESPECTIVE PARTIES
+EVERYONE HAS THE RIGHT TO MAKE A DONATION, BUT IT IS A VERY COMPLEX ISSUE
+EVERYONE HAS THE RIGHT TO DO SOMETHING THAT IS GOOD FOR YOUR HEALTH
+EVERYONE HAS THE RIGHT TO KEEP THE RIGHTS TO THE PRESS AND INFORMATION PROTECTED FROM INTRUSION
+EVERYONE HAS THE RIGHT TO SPEAK FREELY; AND SO THE COURT WILL FIND AND ENFORCE THE STATUTE OF LIMITATIONS
+EVERYONE HAS THE RIGHT TO VOTE
+EVERYONE HAS THE RIGHT TO DO THINGS
+EVERYONE HAS THE RIGHT TO VOTE, IF THAT
+EVERYONE HAS THE RIGHT TO TAKE WHAT THEY SEE
+EVERYONE HAS THE RIGHT TO FREE SPEECH AND FREEDOM OF EXPRESSION
+EVERYONE HAS THE RIGHT TO FREE SPEECH IN THE UNITED STATES
+EVERYONE HAS THE RIGHT TO MAKE YOU HAVE THESE THOUGHTS AND FEELINGS
+EVERYONE HAS THE RIGHT TO MAKE A DIFFERENCE!
+EVERYONE HAS THE RIGHT TO BE IN TOUCH WITH FRIENDS ONLINE
+EVERYONE HAS THE RIGHT TO PROTEST, BUT THEN IT TURNS OUT THAT IT COULD TAKE ANOTHER THREE MONTHS
+EVERYONE HAS THE RIGHT TO VOTE
+EVERYONE HAS THE RIGHT TO KNOW ABOUT THEM," HE SAID
+EVERYONE HAS THE RIGHT TO SAY, WELL, THAT\'S A GOOD POINT
+EVERYONE HAS THE RIGHT TO SPEAK FOR OUR COMMUNITY
+EVERYONE HAS THE RIGHT TO PROTEST POLICE BRUTALITY, BUT THEY SHOULD FIGHT TO PROTECT PEOPLE WHO PROTEST POLICE
+EVERYONE HAS THE RIGHT TO TAKE A VACATION FOR THE HOLIDAYS WITH NO NEED FOR ACCOMMODATIONS
+EVERYONE HAS THE RIGHT TO DO SO AND SHOULD USE IT IN A WAY THAT WORKS IN EVERYONE ELSE
+EVERYONE HAS THE RIGHT TO DECIDE HIS OR HER INTENTIONS… AND HOW TO MANAGE THOSE DECISIONS
+EVERYONE HAS THE RIGHT TO SUE FOR IT
+EVERYONE HAS THE RIGHT TO PETITION IN ORDER TO PROTECT HER INTERESTS AND AGAINST THEIR ALLEGED MISUSE
+EVERYONE HAS THE RIGHT TO HAVE SEXUAL RELATIONS WITH OTHERS AND NOT WITH A THIRD PARTY
+EVERYONE HAS THE RIGHT TO SELF-DETERMINATION FOR ALL
+EVERYONE HAS THE RIGHT TO CHOOSE WHICH PART OF ITS MISSION WOULD BE BENEFICIAL TO YOU
+EVERYONE HAS THE RIGHT TO KEEP AND BEAR ARMS
+EVERYONE HAS THE RIGHT TO PRIVACY AND SECURITY
+EVERYONE HAS THE RIGHT TO A DOCTORATE
+EVERYONE HAS THE RIGHT TO BE INDEPENDENT, THEY CAN BE INDEPENDENT OF THEMSELVES AND THE GOVERNMENT AND THE MEDIA
+EVERYONE HAS THE RIGHT TO SAY "I REALLY DID" WITHOUT HESITATION
+EVERYONE HAS THE RIGHT TO FREEDOM OF SPEECH, FREEDOM OF SPEECH, AND ASSEMBLY, BECAUSE THEY SAY THAT
+EVERYONE HAS THE RIGHT TO PETITION HIS CITY DEPARTMENT FOR A NEW STADIUM
+EVERYONE HAS THE RIGHT TO BE, OR AT LEAST A STRONG PROPONENT OF IT, BUT CAN'T HELP
+EVERYONE HAS THE RIGHT TO LIVE INDEPENDENTLY OF THE LAW, WHICH IS WHY SOME PEOPLE MAY DISAGREE
+EVERYONE HAS THE RIGHT TO ACCESS HEALTH INFORMATION IN A TIMELY MANNER
+EVERYONE HAS THE RIGHT TO MAKE A DECISION AT ANY TIME, WHICH CAN BE DONE BY THE JUDGE
+EVERYONE HAS THE RIGHT TO KEEP AND BEAR ARMS, EXCEPT THOSE UNDER THE AGE OF 19, FOR SECURITY
+EVERYONE HAS THE RIGHT TO FREE SPEECH AND IT SHOULD NOT BE ALLOWED
+EVERYONE HAS THE RIGHT TO CALL SUCH A LAWSUIT A LEGAL BREACH
+EVERYONE HAS THE RIGHT TO FREEDOM OF SPEECH
+EVERYONE HAS THE RIGHT TO DISAGREE
+EVERYONE HAS THE RIGHT TO CHOOSE
+EVERYONE HAS THE RIGHT TO DECIDE
+EVERYONE HAS THE RIGHT TO VOTE
+EVERYONE HAS THE RIGHT TO PROTEST
+EVERYONE HAS THE RIGHT TO COMPLAIN
+EVERYONE HAS THE RIGHT TO KNOW
+EVERYONE HAS THE RIGHT TO EXIST
+EVERYONE HAS THE RIGHT TO SUE
+EVERYONE HAS THE RIGHT TO DISCRIMINATE
+EVERYONE HAS THE RIGHT TO HATE
+EVERYONE HAS THE RIGHT TO SAY
+EVERYONE HAS THE RIGHT TO JUDGE
+EVERYONE HAS THE RIGHT TO DISSENT
+EVERYONE HAS THE RIGHT TO SPEAK
+EVERYONE HAS THE RIGHT TO PARTICIPATE
+EVERYONE HAS THE RIGHT TO CRITICIZE
+EVERYONE HAS THE RIGHT TO BREATHE
+EVERYONE HAS THE RIGHT TO DEBATE
+EVERYONE HAS THE RIGHT TO VETO
+EVERYONE HAS THE RIGHT TO BREATHE
+EVERYONE HAS THE RIGHT TO AGREE
+EVERYONE HAS THE RIGHT TO PRIVACY
+EVERYONE HAS THE RIGHT TO DIE
+EVERYONE HAS THE RIGHT TO REFUSE
+EVERYONE HAS THE RIGHT TO SUFFER
+EVERYONE HAS THE RIGHT TO ASSEMBLE
+EVERYONE HAS THE RIGHT TO THINK
+EVERYONE HAS THE RIGHT TO SUCCEED
+EVERYONE HAS THE RIGHT TO CARE
+EVERYONE HAS THE RIGHT TO DREAM
+EVERYONE HAS THE RIGHT TO SHARE
+EVERYONE HAS THE RIGHT TO LIVE
+EVERYONE HAS THE RIGHT TO RESPOND
+EVERYONE HAS THE RIGHT TO ORGANIZE
+EVERYONE HAS THE RIGHT TO FIGHT
+EVERYONE HAS THE RIGHT TO CHANGE
+EVERYONE HAS THE RIGHT TO HEAR
+EVERYONE HAS THE RIGHT TO BELIEVE
+EVERYONE HAS THE RIGHT TO COMMENT
+EVERYONE HAS THE RIGHT TO WIN
+EVERYONE HAS THE RIGHT TO OFFEND
+EVERYONE HAS THE RIGHT TO PEE
+EVERYONE HAS THE RIGHT TO PICK
+EVERYONE HAS THE RIGHT TO REMEMBER
+EVERYONE HAS THE RIGHT TO HEAL
+EVERYONE HAS THE RIGHT TO LEAVE
+EVERYONE HAS THE RIGHT TO GUESS
+EVERYONE HAS THE RIGHT TO GOVERN
+EVERYONE HAS THE RIGHT TO READ
+EVERYONE HAS THE RIGHT TO GO
+ALL HUMAN BEINGS ARE THE SAME AGE, THE SAME COUNTRY AND THE SAME TIME WITHOUT ANY DIFFERENCES
+ALL HUMAN BEINGS ARE DIFFERENT, DIFFERENT VERSIONS OF THEMSELVES
+ALL HUMAN BEINGS ARE ABLE TO PERCEIVE AND RESPOND ACCORDING TO THEIR NATURAL NEEDS
+ALL HUMAN BEINGS ARE MUCH SHORTER THAN THE AVERAGE HUMAN
+ALL HUMAN BEINGS ARE NOT HUMAN BEINGS, BUT THEY ARE HUMAN BEINGS
+ALL HUMAN BEINGS ARE ALL TOO OFTEN PORTRAYED AS ANIMALS LIKE DOGS, CHICKENS, WOLVES, APES
+ALL HUMAN BEINGS ARE CAPABLE OF BOTH BECOMING HUMAN BEINGS AND BECOMING HUMAN BEINGS
+ALL HUMAN BEINGS ARE NOT ALONE, IN FACT, AND EVERY HUMAN ORGANISM HAS A PARTICULAR FORM OF HUMAN
+ALL HUMAN BEINGS ARE INHERENTLY PRONE TO PHYSICAL, MENTAL AND EMOTIONAL DAMAGE
+ALL HUMAN BEINGS ARE JUST AS UNIQUE AND COMPLEX AS OUR OWN
+ALL HUMAN BEINGS ARE ALL ABOUT HAVING A NICE DAY, BUT WE’LL PUT A PRICE
+ALL HUMAN BEINGS ARE THE GREATEST BEINGS OF ALL TIME
+ALL HUMAN BEINGS ARE NOT AS COMPLEX AS A HUMAN BEING, AS THEY SHOULD BE
+ALL HUMAN BEINGS ARE OFTEN OVERLOOKED AS THE BASIS OF THE STATE OF AFFAIRS
+ALL HUMAN BEINGS ARE ALWAYS IN OUR FACES
+ALL HUMAN BEINGS ARE BORN IN CAPTIVITY
+ALL HUMAN BEINGS ARE NOT HUMAN BEINGS
+ALL HUMAN BEINGS ARE BORN THE SAME WAY EVERY ANIMAL HAS THE SAME CONDITION WE HAVE IN OUR BODY
+ALL HUMAN BEINGS ARE CAPABLE OF EXPERIENCING AND FEELING AND EXPERIENCING A SENSATION OF EXISTENCE
+ALL HUMAN BEINGS ARE CAPABLE OF BECOMING FREE OF THEIR OWN PASSIONS
+ALL HUMAN BEINGS ARE NOT AS GOOD AT PLAYING SOCCER AS THEY SHOULD BE IT'S EASIER THAN EVER
+ALL HUMAN BEINGS ARE AT PEACE WITH EACH OTHER AND THE PEACE THAT THERE ARE
+ALL HUMAN BEINGS ARE MADE CONSCIOUS OF THEIR CONSCIOUS INTENTIONS
+ALL HUMAN BEINGS ARE HUMAN BEINGS
+ALL HUMAN BEINGS ARE REALLY STUPID BUT THEY'VE ALSO INVENTED THIS WEIRD, WEIRD WAY OF LIVING
+ALL HUMAN BEINGS ARE CREATED IN WAYS THAT ARE WHOLLY ANTITHETICAL TO A BIOLOGICAL OR GENETIC PROCESS
+ALL HUMAN BEINGS ARE AWARE THAT ONE THING WHICH THE MAJORITY OF THOSE HUMAN BEINGS HAVE NO RIGHT TO FEAR
+ALL HUMAN BEINGS ARE INCAPABLE OF GRASPING THE DIFFERENCE BETWEEN THE BODY AND THE SPIRIT ITSELF IN MANY WAYS
+ALL HUMAN BEINGS ARE NOT PERFECT AND THAT THEY DO NOT DESERVE ANYTHING
+ALL HUMAN BEINGS ARE THE BEST IN THE WORLD AND AT LEAST TO THE BEST OF OUR ABILITY
+ALL HUMAN BEINGS ARE BORN TO SHARE A LIFE OF LOVE, COMPASSION, AND COMPASSION
+ALL HUMAN BEINGS ARE CREATURES THAT ARE INTELLIGENT ENOUGH TO KNOW ALL OF IT OR NOT
+ALL HUMAN BEINGS ARE NOT THE SAME, BUT ARE VERY DIFFERENT
+ALL HUMAN BEINGS ARE THE MOST ACTIVE OF HUMAN BEINGS
+ALL HUMAN BEINGS ARE, ON PAR WITH THE BEINGS OF THE GODS, CREATURES OF HELL AND OTHER HUMANS
+ALL HUMAN BEINGS ARE NOT CAPABLE OF MAKING THE SAME DECISIONS THAT OTHERS EXPECT OR PREDICT
+ALL HUMAN BEINGS ARE NOT ABLE TO SENSE THE WAY THE MAN WITH WHOM WE ARE TODAY
+ALL HUMAN BEINGS ARE A SPECIES
+ALL HUMAN BEINGS ARE THE MOST INTELLIGENT, INTELLIGENT BEINGS ON EARTH
+ALL HUMAN BEINGS ARE NOT NECESSARILY IN EVERY SENSE DISTINCT FROM THEM
+ALL HUMAN BEINGS ARE FAR SMARTER THAN WE THINK
+ALL HUMAN BEINGS ARE THE STRONGEST AND THE MOST EFFICIENT
+ALL HUMAN BEINGS ARE AN ENDANGERED SPECIES, AND IT IS NOT ONLY HUMAN BEINGS THAT NEED TO BE PROTECTED
+ALL HUMAN BEINGS ARE HUMAN BEINGS, AND THEY ARE HUMAN BEINGS, AND EVERY HUMAN BEING IS HUMAN BEING
+ALL HUMAN BEINGS ARE VERY SENSITIVE
+ALL HUMAN BEINGS ARE NOT THE ONLY CREATURES THAT HAVE BEEN INFECTED
+ALL HUMAN BEINGS ARE THE SAD OF CIVILIZATION
+ALL HUMAN BEINGS ARE NATURALLY HUMAN BEINGS
+ALL HUMAN BEINGS ARE AT RISK FOR SUICIDE, AND SUICIDE COULD BE LINKED TO SUICIDE
+ALL HUMAN BEINGS ARE MADE OF A SMALL UNIT OF TINY MATTER
+EVERYONE IS ENTITLED TO PRIVACY
+EVERYONE IS ENTITLED TO CHOOSE
+EVERYONE IS ENTITLED TO VOTE
+EVERYONE IS ENTITLED TO FREEDOM
+EVERYONE IS ENTITLED TO KNOW
+EVERYONE IS ENTITLED TO DECIDE
+EVERYONE IS ENTITLED TO DISAGREE
+EVERYONE IS ENTITLED TO EQUALITY
+EVERYONE IS ENTITLED TO CHOICE
+EVERYONE IS ENTITLED TO CARE
+EVERYONE IS ENTITLED TO PARTICIPATE
+EVERYONE IS ENTITLED TO LIBERTY
+EVERYONE IS ENTITLED TO HAPPINESS
+EVERYONE IS ENTITLED TO CHOICES
+EVERYONE IS ENTITLED TO EXIST
+EVERYONE IS ENTITLED TO SAY
+EVERYONE IS ENTITLED TO SUCCEED
+EVERYONE IS ENTITLED TO HEALTHCARE
+EVERYONE IS ENTITLED TO IT
+EVERYONE IS ENTITLED TO CHANGE
+EVERYONE IS ENTITLED TO DEBATE
+EVERYONE IS ENTITLED TO JUSTICE
+EVERYONE IS ENTITLED TO DIGNITY
+EVERYONE IS ENTITLED TO EVERYTHING
+EVERYONE IS ENTITLED TO INPUT
+EVERYONE IS ENTITLED TO A FAIR FIGHT
+EVERYONE IS ENTITLED TO BE PROUD OF WHO SHE IS
+EVERYONE IS ENTITLED TO RESPECT OR RESPECT OTHERS
+EVERYONE IS ENTITLED TO FREEDOM OF SELF-EXPRESSION AND WILL NOT SEEK TO ENGAGE IN A VIOLENT CLASH
+EVERYONE IS ENTITLED TO A CERTAIN LIBERTY AND TO AN INDIVIDUAL FREEDOM
+EVERYONE IS ENTITLED TO BE TREATED AS THE MOST VULNERABLE IN OUR SOCIETY
+EVERYONE IS ENTITLED TO USE IT
+EVERYONE IS ENTITLED TO ITS OWN OPINION
+EVERYONE IS ENTITLED TO HAVE THEIR WORK CUT OUT FOR EVERYONE
+EVERYONE IS ENTITLED TO HIS OR HER RIGHT TO VOTE BECAUSE HE'S A MEMBER OF BOTH PARTIES
+EVERYONE IS ENTITLED TO PRIVACY
+EVERYONE IS ENTITLED TO A LIMITED USE OF THAT SPACE
+EVERYONE IS ENTITLED TO SOME KIND OF 'PUBLIC SERVICE' IN PUBLIC
+EVERYONE IS ENTITLED TO EXPRESS OPINIONS AND TO SPEAK TRUTHFULLY TO OTHER GROUPS OF PEOPLE REGARDLESS OF RACE
+EVERYONE IS ENTITLED TO DEFEND EACH OTHER AND HAVE RIGHTS, LIBERTY, AND THE PURSUIT OF HAPPINESS
+EVERYONE IS ENTITLED TO THE RIGHT TO VOTE
+EVERYONE IS ENTITLED TO SOME OF THE BEST THINGS THAT I'VE EVER EXPERIENCED
+EVERYONE IS ENTITLED TO HIS OR HER OWN OPINIONS
+EVERYONE IS ENTITLED TO SEE A FAIR TRIAL IN THE CASE OF ONE OR BOTH PRISONERS
+EVERYONE IS ENTITLED TO A DEGREE OF FREE EXERCISE AND FULL EDUCATION
+EVERYONE IS ENTITLED TO BE ENTITLED TO HIS BELIEFS IN RELIGION ONLY IF THEY ARE SO CONSISTENT WITH HIS POSITION
+EVERYONE IS ENTITLED TO A LEGAL CASE IF HIS PERSON AND THE DEFENDANT ARE GUILTY OF A FELONY
+EVERYONE IS ENTITLED TO TAKE A VOTE ON ANY MATTER THEY CHOOSE, INCLUDING TO END THE NATIONAL DEBT
+EVERYONE IS ENTITLED TO THIS BASIC HUMAN RIGHT, EXCEPT FOR NOT JUST THE RIGHT TO VOTE IN EVERY ELECTION
+EVERYONE IS ENTITLED TO THE BEST FREE COFFEE
+
+ABOUT UDHR TEXT DATA
+This text data was taken directly from the United Nations Web Page. The United Nations General Assembly ratified the Universal Declaration of Human Rights, the UDHR in Paris, France, on the 10th of December, 1948. The United Nations was founded in 1945 after World War II and the UDHR was championed as a natural evolution of enlightened values. However, it can also be seen how this document emerged out of specific political and geopolitical contexts to push political goals, including preventing wars. Some may even share the view that some human rights are evolved along with capitalism.
+
+The UDHR document was produced in 1948. This was 35 years before the internet in January 1, 1983, and 41 years before the World Wide Web in March 12, 1989. Since ratified, the world has changed drastically, while the rights remain the same.
+
+The UDHR is "a common standard of achievements for all peoples and all nations" (source: https://www.un.org/en/about-us/universal-declaration-of-human-rights) and is used to bring equality and justice to people and communities around the world. These rights are essential and have been significant since 1948 for many people and communities. However, the rights that have been in the UDHR since 1948 still cannot be claimed by all peoples and all nations universally. This unevenness and outdatedness are what I want to draw attention to with this project. In the same we exist in contractions, human rights are essential and should not be disregarded but should also be challenged. All human beings are born free and equal in dignity and rights. Are all human beings born free and equal in dignity and rights?
+
+Here are 50 lines the UDHR text data:
+ALL HUMAN BEINGS ARE BORN FREE AND EQUAL IN DIGNITY AND RIGHTS. THEY ARE ENDOWED WITH REASON AND CONSCIENCE AND SHOULD ACT TOWARDS ONE ANOTHER IN A SPIRIT OF BROTHERHOOD.
+EVERYONE IS ENTITLED TO ALL THE RIGHTS AND FREEDOMS SET FORTH IN THIS DECLARATION, WITHOUT DISTINCTION OF ANY KIND, SUCH AS RACE, COLOUR, SEX, LANGUAGE, RELIGION, POLITICAL OR OTHER OPINION, NATIONAL OR SOCIAL ORIGIN, PROPERTY, BIRTH OR OTHER STATUS. FURTHERMORE, NO DISTINCTION SHALL BE MADE ON THE BASIS OF THE POLITICAL, JURISDICTIONAL OR INTERNATIONAL STATUS OF THE COUNTRY OR TERRITORY TO WHICH A PERSON BELONGS, WHETHER IT BE INDEPENDENT, TRUST, NON-SELF-GOVERNING OR UNDER ANY OTHER LIMITATION OF SOVEREIGNTY.
+EVERYONE HAS THE RIGHT TO LIFE, LIBERTY AND SECURITY OF PERSON.
+NO ONE SHALL BE HELD IN SLAVERY OR SERVITUDE; SLAVERY AND THE SLAVE TRADE SHALL BE PROHIBITED IN ALL THEIR FORMS.
+NO ONE SHALL BE SUBJECTED TO TORTURE OR TO CRUEL, INHUMAN OR DEGRADING TREATMENT OR PUNISHMENT.
+EVERYONE HAS THE RIGHT TO RECOGNITION EVERYWHERE AS A PERSON BEFORE THE LAW.
+ALL ARE EQUAL BEFORE THE LAW AND ARE ENTITLED WITHOUT ANY DISCRIMINATION TO EQUAL PROTECTION OF THE LAW. ALL ARE ENTITLED TO EQUAL PROTECTION AGAINST ANY DISCRIMINATION IN VIOLATION OF THIS DECLARATION AND AGAINST ANY INCITEMENT TO SUCH DISCRIMINATION.
+EVERYONE HAS THE RIGHT TO AN EFFECTIVE REMEDY BY THE COMPETENT NATIONAL TRIBUNALS FOR ACTS VIOLATING THE FUNDAMENTAL RIGHTS GRANTED HIM BY THE CONSTITUTION OR BY LAW.
+NO ONE SHALL BE SUBJECTED TO ARBITRARY ARREST, DETENTION OR EXILE.
+EVERYONE IS ENTITLED IN FULL EQUALITY TO A FAIR AND PUBLIC HEARING BY AN INDEPENDENT AND IMPARTIAL TRIBUNAL, IN THE DETERMINATION OF HIS RIGHTS AND OBLIGATIONS AND OF ANY CRIMINAL CHARGE AGAINST HIM.
+EVERYONE CHARGED WITH A PENAL OFFENCE HAS THE RIGHT TO BE PRESUMED INNOCENT UNTIL PROVED GUILTY ACCORDING TO LAW IN A PUBLIC TRIAL AT WHICH HE HAS HAD ALL THE GUARANTEES NECESSARY FOR HIS DEFENCE.
+NO ONE SHALL BE HELD GUILTY OF ANY PENAL OFFENCE ON ACCOUNT OF ANY ACT OR OMISSION WHICH DID NOT CONSTITUTE A PENAL OFFENCE, UNDER NATIONAL OR INTERNATIONAL LAW, AT THE TIME WHEN IT WAS COMMITTED. NOR SHALL A HEAVIER PENALTY BE IMPOSED THAN THE ONE THAT WAS APPLICABLE AT THE TIME THE PENAL OFFENCE WAS COMMITTED.
+NO ONE SHALL BE SUBJECTED TO ARBITRARY INTERFERENCE WITH HIS PRIVACY, FAMILY, HOME OR CORRESPONDENCE, NOR TO ATTACKS UPON HIS HONOUR AND REPUTATION.
+EVERYONE HAS THE RIGHT TO THE PROTECTION OF THE LAW AGAINST SUCH INTERFERENCE OR ATTACKS.
+EVERYONE HAS THE RIGHT TO FREEDOM OF MOVEMENT AND RESIDENCE WITHIN THE BORDERS OF EACH STATE.
+EVERYONE HAS THE RIGHT TO LEAVE ANY COUNTRY, INCLUDING HIS OWN, AND TO RETURN TO HIS COUNTRY.
+EVERYONE HAS THE RIGHT TO SEEK AND TO ENJOY IN OTHER COUNTRIES ASYLUM FROM PERSECUTION.
+THIS RIGHT MAY NOT BE INVOKED IN THE CASE OF PROSECUTIONS GENUINELY ARISING FROM NON-POLITICAL CRIMES OR FROM ACTS CONTRARY TO THE PURPOSES AND PRINCIPLES OF THE UNITED NATIONS.
+EVERYONE HAS THE RIGHT TO A NATIONALITY.
+NO ONE SHALL BE ARBITRARILY DEPRIVED OF HIS NATIONALITY NOR DENIED THE RIGHT TO CHANGE HIS NATIONALITY.
+MEN AND WOMEN OF FULL AGE, WITHOUT ANY LIMITATION DUE TO RACE, NATIONALITY OR RELIGION, HAVE THE RIGHT TO MARRY AND TO FOUND A FAMILY. THEY ARE ENTITLED TO EQUAL RIGHTS AS TO MARRIAGE, DURING MARRIAGE AND AT ITS DISSOLUTION.
+MARRIAGE SHALL BE ENTERED INTO ONLY WITH THE FREE AND FULL CONSENT OF THE INTENDING SPOUSES.
+THE FAMILY IS THE NATURAL AND FUNDAMENTAL GROUP UNIT OF SOCIETY AND IS ENTITLED TO PROTECTION BY SOCIETY AND THE STATE.
+EVERYONE HAS THE RIGHT TO OWN PROPERTY ALONE AS WELL AS IN ASSOCIATION WITH OTHERS.
+NO ONE SHALL BE ARBITRARILY DEPRIVED OF HIS PROPERTY.
+EVERYONE HAS THE RIGHT TO FREEDOM OF THOUGHT, CONSCIENCE AND RELIGION; THIS RIGHT INCLUDES FREEDOM TO CHANGE HIS RELIGION OR BELIEF, AND FREEDOM, EITHER ALONE OR IN COMMUNITY WITH OTHERS AND IN PUBLIC OR PRIVATE, TO MANIFEST HIS RELIGION OR BELIEF IN TEACHING, PRACTICE, WORSHIP AND OBSERVANCE.
+EVERYONE HAS THE RIGHT TO FREEDOM OF OPINION AND EXPRESSION; THIS RIGHT INCLUDES FREEDOM TO HOLD OPINIONS WITHOUT INTERFERENCE AND TO SEEK, RECEIVE AND IMPART INFORMATION AND IDEAS THROUGH ANY MEDIA AND REGARDLESS OF FRONTIERS.
+EVERYONE HAS THE RIGHT TO FREEDOM OF PEACEFUL ASSEMBLY AND ASSOCIATION.
+NO ONE MAY BE COMPELLED TO BELONG TO AN ASSOCIATION.
+EVERYONE HAS THE RIGHT TO TAKE PART IN THE GOVERNMENT OF HIS COUNTRY, DIRECTLY OR THROUGH FREELY CHOSEN REPRESENTATIVES.
+EVERYONE HAS THE RIGHT OF EQUAL ACCESS TO PUBLIC SERVICE IN HIS COUNTRY.
+THE WILL OF THE PEOPLE SHALL BE THE BASIS OF THE AUTHORITY OF GOVERNMENT; THIS WILL SHALL BE EXPRESSED IN PERIODIC AND GENUINE ELECTIONS WHICH SHALL BE BY UNIVERSAL AND EQUAL SUFFRAGE AND SHALL BE HELD BY SECRET VOTE OR BY EQUIVALENT FREE VOTING PROCEDURES.
+EVERYONE, AS A MEMBER OF SOCIETY, HAS THE RIGHT TO SOCIAL SECURITY AND IS ENTITLED TO REALIZATION, THROUGH NATIONAL EFFORT AND INTERNATIONAL CO-OPERATION AND IN ACCORDANCE WITH THE ORGANIZATION AND RESOURCES OF EACH STATE, OF THE ECONOMIC, SOCIAL AND CULTURAL RIGHTS INDISPENSABLE FOR HIS DIGNITY AND THE FREE DEVELOPMENT OF HIS PERSONALITY.
+EVERYONE HAS THE RIGHT TO WORK, TO FREE CHOICE OF EMPLOYMENT, TO JUST AND FAVOURABLE CONDITIONS OF WORK AND TO PROTECTION AGAINST UNEMPLOYMENT.
+EVERYONE, WITHOUT ANY DISCRIMINATION, HAS THE RIGHT TO EQUAL PAY FOR EQUAL WORK.
+EVERYONE WHO WORKS HAS THE RIGHT TO JUST AND FAVOURABLE REMUNERATION ENSURING FOR HIMSELF AND HIS FAMILY AN EXISTENCE WORTHY OF HUMAN DIGNITY, AND SUPPLEMENTED, IF NECESSARY, BY OTHER MEANS OF SOCIAL PROTECTION.
+EVERYONE HAS THE RIGHT TO FORM AND TO JOIN TRADE UNIONS FOR THE PROTECTION OF HIS INTERESTS.
+EVERYONE HAS THE RIGHT TO REST AND LEISURE, INCLUDING REASONABLE LIMITATION OF WORKING HOURS AND PERIODIC HOLIDAYS WITH PAY.
+EVERYONE HAS THE RIGHT TO A STANDARD OF LIVING ADEQUATE FOR THE HEALTH AND WELL-BEING OF HIMSELF AND OF HIS FAMILY, INCLUDING FOOD, CLOTHING, HOUSING AND MEDICAL CARE AND NECESSARY SOCIAL SERVICES, AND THE RIGHT TO SECURITY IN THE EVENT OF UNEMPLOYMENT, SICKNESS, DISABILITY, WIDOWHOOD, OLD AGE OR OTHER LACK OF LIVELIHOOD IN CIRCUMSTANCES BEYOND HIS CONTROL.
+MOTHERHOOD AND CHILDHOOD ARE ENTITLED TO SPECIAL CARE AND ASSISTANCE. 
+ALL CHILDREN, WHETHER BORN IN OR OUT OF WEDLOCK, SHALL ENJOY THE SAME SOCIAL PROTECTION.
+EVERYONE HAS THE RIGHT TO EDUCATION. EDUCATION SHALL BE FREE, AT LEAST IN THE ELEMENTARY AND FUNDAMENTAL STAGES. ELEMENTARY EDUCATION SHALL BE COMPULSORY. TECHNICAL AND PROFESSIONAL EDUCATION SHALL BE MADE GENERALLY AVAILABLE AND HIGHER EDUCATION SHALL BE EQUALLY ACCESSIBLE TO ALL ON THE BASIS OF MERIT.
+EDUCATION SHALL BE DIRECTED TO THE FULL DEVELOPMENT OF THE HUMAN PERSONALITY AND TO THE STRENGTHENING OF RESPECT FOR HUMAN RIGHTS AND FUNDAMENTAL FREEDOMS. IT SHALL PROMOTE UNDERSTANDING, TOLERANCE AND FRIENDSHIP AMONG ALL NATIONS, RACIAL OR RELIGIOUS GROUPS, AND SHALL FURTHER THE ACTIVITIES OF THE UNITED NATIONS FOR THE MAINTENANCE OF PEACE.
+PARENTS HAVE A PRIOR RIGHT TO CHOOSE THE KIND OF EDUCATION THAT SHALL BE GIVEN TO THEIR CHILDREN.
+EVERYONE HAS THE RIGHT FREELY TO PARTICIPATE IN THE CULTURAL LIFE OF THE COMMUNITY, TO ENJOY THE ARTS AND TO SHARE IN SCIENTIFIC ADVANCEMENT AND ITS BENEFITS.
+EVERYONE HAS THE RIGHT TO THE PROTECTION OF THE MORAL AND MATERIAL INTERESTS RESULTING FROM ANY SCIENTIFIC, LITERARY OR ARTISTIC PRODUCTION OF WHICH HE IS THE AUTHOR.
+EVERYONE IS ENTITLED TO A SOCIAL AND INTERNATIONAL ORDER IN WHICH THE RIGHTS AND FREEDOMS SET FORTH IN THIS DECLARATION CAN BE FULLY REALIZED.
+EVERYONE HAS DUTIES TO THE COMMUNITY IN WHICH ALONE THE FREE AND FULL DEVELOPMENT OF HIS PERSONALITY IS POSSIBLE.
+IN THE EXERCISE OF HIS RIGHTS AND FREEDOMS, EVERYONE SHALL BE SUBJECT ONLY TO SUCH LIMITATIONS AS ARE DETERMINED BY LAW SOLELY FOR THE PURPOSE OF SECURING DUE RECOGNITION AND RESPECT FOR THE RIGHTS AND FREEDOMS OF OTHERS AND OF MEETING THE JUST REQUIREMENTS OF MORALITY, PUBLIC ORDER AND THE GENERAL WELFARE IN A DEMOCRATIC SOCIETY.
+THESE RIGHTS AND FREEDOMS MAY IN NO CASE BE EXERCISED CONTRARY TO THE PURPOSES AND PRINCIPLES OF THE UNITED NATIONS.
+NOTHING IN THIS DECLARATION MAY BE INTERPRETED AS IMPLYING FOR ANY STATE, GROUP OR PERSON ANY RIGHT TO ENGAGE IN ANY ACTIVITY OR TO PERFORM ANY ACT AIMED AT THE DESTRUCTION OF ANY OF THE RIGHTS AND FREEDOMS SET FORTH HEREIN.
+Project prototype by Alexandria Ahluwalia. MA Internet Equalities UAL CCI.
