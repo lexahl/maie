@@ -16,7 +16,7 @@ pygmentsUseClasses = true
   [[menu.main]]
     identifier = "posts"
     name = ">> projects <<"
-    title = "posts"
+    title = "projects"
     url = "/posts/"
     weight = 10
 
