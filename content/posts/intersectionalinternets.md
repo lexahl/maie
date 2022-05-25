@@ -9,7 +9,7 @@ tags = [
 ]
 +++
 
-<a href="/txt/intersectionalinternets.txt" target="_blank">click here for a plain text file of this page →</a>
+<a href="https://lexahl.github.io/maie/txt/intersectionalinternets.txt" target="_blank">click here for a plain text file of this page →</a>
 
 ![black and white zine artwork](/img/zine1.png "welcome to the next chapter of social connection")
 

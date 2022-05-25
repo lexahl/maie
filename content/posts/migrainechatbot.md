@@ -9,7 +9,7 @@ tags = [
 ]
 +++
 
-<a href="/txt/migrainechatbot.txt" target="_blank">click here for a plain text file of this page →</a>
+<a href="https://lexahl.github.io/maie/https://lexahl.github.io/maie/txt/migrainechatbot.txt" target="_blank">click here for a plain text file of this page →</a>
 
 ![screenshot of the chatbot's website homepage](/img/migraine1.png "my migraines screenshot")
 

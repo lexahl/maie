@@ -9,7 +9,7 @@ tags = [
 ]
 +++
 
-<a href="/txt/dind.txt" target="_blank">click here for a plain text file of this page →</a>
+<a href="https://lexahl.github.io/maie/txt/dind.txt" target="_blank">click here for a plain text file of this page →</a>
 
 <a href="https://disabilityjusticeinhci.org/" target="_blank">click here to visit the Dreaming Disability Justice in HCI Workshop Website →</a>
 

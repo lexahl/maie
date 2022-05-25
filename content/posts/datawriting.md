@@ -9,7 +9,7 @@ tags = [
 ]
 +++
 
-<a href="/txt/datawriting.txt" target="_blank">click here for a plain text file of this page →</a>
+<a href="https://lexahl.github.io/maie/txt/datawriting.txt" target="_blank">click here for a plain text file of this page →</a>
 
 
 ### Intentions, Experiences, and Encounters with Data

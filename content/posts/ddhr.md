@@ -9,7 +9,7 @@ tags = [
 ]
 +++
 
-<a href="/txt/ddhr.txt" target="_blank">click here for a plain text file of this page →</a>
+<a href="https://lexahl.github.io/maie/txt/ddhr.txt" target="_blank">click here for a plain text file of this page →</a>
 
 This project critiques human rights as framed by the UN Declaration of Human Rights (UDHR) from 1948. Through a collection of text data about human rights, the imagery and various contexts, this project encourages the viewer to question “who has power to declare rights?” and “who can claim rights?” in a critique of the uneven distribution of rights and the antiquity of certain rights around the world today.
 

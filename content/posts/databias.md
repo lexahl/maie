@@ -9,7 +9,7 @@ tags = [
 ]
 +++
 
-<a href="/txt/databias.txt" target="_blank">click here for a plain text file of this page →</a>
+<a href="https://lexahl.github.io/maie/txt/databias.txt" target="_blank">click here for a plain text file of this page →</a>
 
 
 Special Guest Lecturer at the London College of Communication in MA Design for Social Innovation and Sustainable Futures Course
