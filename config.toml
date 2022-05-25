@@ -1,5 +1,5 @@
-baseURL = ""
 title = "ALEXANDRIA ((MAIE 2022))"
+baseURL = "https://lexahl.github.io/maie/"
 theme = "etch"
 languageCode = "en-UK"
 enableInlineShortcodes = true
