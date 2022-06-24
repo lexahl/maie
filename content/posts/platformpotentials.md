@@ -1,6 +1,6 @@
 +++
 author = "Alexandria Ahluwalia"
-title = ">> "
+title = ">> Platform Potentials Weekly Reflections"
 date = "2022-06-13"
 description = "Platform Potentials Weekly Reflections"
 tags = [
