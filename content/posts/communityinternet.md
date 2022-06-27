@@ -9,6 +9,8 @@ tags = [
 ]
 +++
 
+This project is at the intersection of speculative fiction and research that aims to raise awareness and call for action on the environmental impact of global internet systems as well as to provide a political platform to address the entangled social and environmental harms of the internet.
+
 <a href="https://platformpotentials.hotglue.me/" target="_blank">explore the website here →</a>
 
 
