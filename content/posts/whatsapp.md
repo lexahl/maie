@@ -14,9 +14,10 @@ tags = [
 
 
 
-<h3> A Privacy Setting that WhatsApp Needs <h3>
+<h3> A Privacy Setting that WhatsApp Needs </h3>
 
 <hr>
+
 
 On June 15, 2022, Meta’s messaging service WhatsApp announced the rollout of several new privacy-related features. These features centre around users being able to control who can view their information and activity online, specifically, giving the user control over who from their contact list can view their Profile Photo, About, Last Seen, and Online status (WhatsApp, 2022).
 
@@ -62,14 +63,13 @@ By having a privacy feature that allows users to block unknown calls and message
 
 Reference List
 
-Apple Support: Detect and block spam phone calls (2021) Available at:
-https://support.apple.com/en-gb/HT207099 (Accessed: July 3, 2022).
+Apple Support: Detect and block spam phone calls (2021) Available at: https://support.apple.com/en-gb/HT207099 (Accessed: July 3, 2022).
 
 Dixon, S. (2022) Statista WhatsApp — Statistics & Facts. Available at: https://www.statista.com/topics/2018/whatsapp/ (Accessed: July 3, 2022).
 
 Isaac, M. (2016) WhatsApp Introduces End-to-End Encryption, The New York Times (Online), April 5. Available at: https://www.nytimes.com/2016/04/06/technology/whatsapp-messaging-service-introduces-full-encryption.html (Accessed: July 3, 2022).
 
-Pereira, G., Bueno Bojczuk Camargo, I. and Parks, L. (2022) ‘WhatsApp disruptions in Brazil: A content analysis of user and news media responses, 2015–2018’, Global Media and Communication, 18(1), pp. 113–148. doi: 10.1177/17427665211038530.
+Pereira, G. Bueno Bojczuk Camargo, I. and Parks, L. (2022) ‘WhatsApp disruptions in Brazil: A content analysis of user and news media responses, 2015–2018’, Global Media and Communication, 18(1), pp. 113–148. doi: 10.1177/17427665211038530.
 
 WhatsApp. (2022) [Twitter] June 15, 2022. Available at: https://twitter.com/WhatsApp/status/1537213566717075456 (Accessed: July 3, 2022).
 
