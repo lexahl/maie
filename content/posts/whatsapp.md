@@ -9,8 +9,9 @@ tags = [
 ]
 +++
 
-<a href="https://lexahl.github.io/maie/txt/whatsapp.txt" target="_blank">click here for a plain text file of this page →</a> <br>
-
+<a href="https://lexahl.github.io/maie/txt/whatsapp.txt" target="_blank">click here for a plain text file of this page →</a> 
+<br>
+<br>
 <a href="https://medium.com/@a_l_e_x_a_n_d_r_i_a/a-privacy-setting-that-whatsapp-needs-70fce9569cab" target="_blank">click here to read or listen to this article on Medium →</a>
 
 
