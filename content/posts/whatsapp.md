@@ -9,7 +9,8 @@ tags = [
 ]
 +++
 
-<a href="https://lexahl.github.io/maie/txt/whatsapp.txt" target="_blank">click here for a plain text file of this page →</a>
+<a href="https://lexahl.github.io/maie/txt/whatsapp.txt" target="_blank">click here for a plain text file of this page →</a> <br>
+
 <a href="https://medium.com/@a_l_e_x_a_n_d_r_i_a/a-privacy-setting-that-whatsapp-needs-70fce9569cab" target="_blank">click here to read or listen to this article on Medium →</a>
 
 
@@ -17,7 +18,6 @@ tags = [
 <h3> A Privacy Setting that WhatsApp Needs </h3>
 
 <hr>
-
 
 On June 15, 2022, Meta’s messaging service WhatsApp announced the rollout of several new privacy-related features. These features centre around users being able to control who can view their information and activity online, specifically, giving the user control over who from their contact list can view their Profile Photo, About, Last Seen, and Online status (WhatsApp, 2022).
 
