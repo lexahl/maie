@@ -13,26 +13,27 @@ tags = [
 
 
 
-### June 2022
-
-thesis brainstorming: 
+### June 2022 <<thesis brainstorming>>
 
 ideas + topics the thesis project relates too: data + sustainability + Land, equitable/fair/sustainable data practices and what it could look like. 
 extension on data justice, technology design and sustainability. technology coexistence with nature. 
 technology, human rights and Land + environments + survival.
 
+1
 * tech design and sustainability
 * data centres
 * planned obsolescence 
 * design for human survival
 * accessibility
 
+2
 * nature coexist with technology
 * nature influence technology
 * complexity
 * nature x human, design and datafication
 * human coexist with technology
- 
+
+3
 * data, tech design
 * care and technology, data
 * reciprocity and tech, data 
@@ -48,13 +49,14 @@ notes/feedback:
     nature think about emergent design, biomimicry
     land and environment for survival
 
-### July 2022
-
-read, learn, relax:
+### July 2022 <<read, learn, relax>>
 
 read: <a href="https://www.are.na/lexahl/thesis-r0undls8gmg" target="_blank">>> are.na channel with research and process →</a>
-learn: <a href="https://www.complexityexplorer.org/courses/144-introduction-to-complexity">>> Introduction to Complexity, Santa Fe Institute →</a>, <a href="https://www.complexityexplorer.org/courses/144-introduction-to-complexity">>> Design+Science Summer School: Cohabitation, Academy of Fine Arts and Design, University of Ljubljana, together with the Association for Culture and Education PiNA, Faculty of Design Split and Institute Joanneum of the University of Applied sciences Graz →</a>
+
+learn: <a href="https://www.aluo.uni-lj.si/en/mpsole/designscience-cohabitation/">>> Design+Science Summer School: Cohabitation, Academy of Fine Arts and Design, University of Ljubljana, together with the Association for Culture and Education PiNA, Faculty of Design Split and Institute Joanneum of the University of Applied sciences Graz →</a>
+
 relax: 🥥🌴🌺🍍🌸
+
 
 ### Aug 2022
 
