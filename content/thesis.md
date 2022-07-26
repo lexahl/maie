@@ -2,36 +2,41 @@
 author = "Alexandria"
 title = ">> MA Thesis Notes"
 date = "2022-05-25"
-description = "my migraines | a chatbot for the conversation that I am too tired to have"
+description = "thesis planning and process"
 tags = [
     "accessibility/disability",
     "sustainability","thesis","data"
 ]
 +++
 
-data + sustainability + Land, equitable/fair/sustainable data practices and what it could look like. 
+<a href="https://www.are.na/lexahl/thesis-r0undls8gmg" target="_blank">>> are.na channel with research and process →</a>
+
+
+
+### June 2022
+
+thesis brainstorming: 
+
+ideas + topics the thesis project relates too: data + sustainability + Land, equitable/fair/sustainable data practices and what it could look like. 
 extension on data justice, technology design and sustainability. technology coexistence with nature. 
 technology, human rights and Land + environments + survival.
 
-P1
-tech design and sustainability
-data centres
-planned obsolescence 
-design for human survival
-accessibility
+* tech design and sustainability
+* data centres
+* planned obsolescence 
+* design for human survival
+* accessibility
 
-P2
-nature coexist with technology
-nature influence technology
-complexity
-nature x human, design and datafication
-human coexist with technology
-
-P3 
-data, tech design
-care and technology, data
-reciprocity and tech, data 
-tech design, design justice
+* nature coexist with technology
+* nature influence technology
+* complexity
+* nature x human, design and datafication
+* human coexist with technology
+ 
+* data, tech design
+* care and technology, data
+* reciprocity and tech, data 
+* tech design, design justice
 
 notes/feedback:
     all 3 sections are different
@@ -42,3 +47,18 @@ notes/feedback:
     adam curtis - hypernormalization bbc iplay
     nature think about emergent design, biomimicry
     land and environment for survival
+
+### July 2022
+
+read, learn, relax:
+
+read: <a href="https://www.are.na/lexahl/thesis-r0undls8gmg" target="_blank">>> are.na channel with research and process →</a>
+learn: <a href="https://www.complexityexplorer.org/courses/144-introduction-to-complexity">>> Introduction to Complexity, Santa Fe Institute →</a>, <a href="https://www.complexityexplorer.org/courses/144-introduction-to-complexity">>> Design+Science Summer School: Cohabitation, Academy of Fine Arts and Design, University of Ljubljana, together with the Association for Culture and Education PiNA, Faculty of Design Split and Institute Joanneum of the University of Applied sciences Graz →</a>
+relax: 🥥🌴🌺🍍🌸
+
+### Aug 2022
+
+...
+
+
+
