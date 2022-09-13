@@ -1,7 +1,7 @@
 +++
 author = "Alexandria Ahluwalia"
 title = ">> Ars Electronica 2022 Festival University Awareness Wall"
-date = "2022-09-7"
+date = "2022-09-07"
 description = "Ars Electronica 2022 Festival University Awareness Wall"
 tags = [
     "sustainability",
