@@ -34,7 +34,7 @@ August 19 – September 14, 2022: <a href="https://ars.electronica.art/planetb/e
 
 ### September 2022
 
-September 27 – October 4, 2022: <a href="https://www.aluo.uni-lj.si/en/mpsole/designscience-cohabitation/">>> Un-Writing Nature Workshop: Center for Arts, Design, and Social Research. An intensive research residency and workshop at the historic Villa Pianciani, Spoleto, Italy focusing on re-signifying "nature," including refiguring or reaffirming relationships between humans, more than humans, and the planet itself. Challenging colonizing and extractivist practices requires other ways of knowing and doing.→</a>
+September 27 – October 4, 2022: <a href="http://www.centerartsdesign.org/workshops/Un-Writing%20Nature%20">>> Un-Writing Nature Workshop: Center for Arts, Design, and Social Research. An intensive research residency and workshop at the historic Villa Pianciani, Spoleto, Italy focusing on re-signifying "nature," including refiguring or reaffirming relationships between humans, more than humans, and the planet itself. Challenging colonizing and extractivist practices requires other ways of knowing and doing.→</a>
 
 ### October 2022
 
