@@ -2,9 +2,7 @@
 title = "about + "
 +++
 
-I am currently a postgraduate student at the Creative Computing Institute in the MA Internet Equalities Programme (MAIE). During my masters, I have been exploring methods for equitable technology design and challenging technology and societies' entanglements while incorporating disability, environmental, climate, and gender justice. 
-
-My creative and professional practice focuses on critically re-imagining and speculating diverse futures of technology and society through various digital mediums and materials. My research and teaching lies in multidisciplinary and collaborative practices that encourage reflection on data and digital technologies. I hope to create conversations to help envision a future where digital technologies are more regenerative and less extractive. 
+Alexandria Ahluwalia (she/they) is a postgraduate student working towards an MA in Internet Equalities in the Creative Computing Institute at the University of the Arts London. Her research focuses on the critical study of data and digital technologies while incorporating disability, environmental, climate, and gender justice. Her creative practice critically re- imagines and speculates diverse futures of technology and society through various digital mediums and materials to encourage reflection on digital technologies. Previously, she collaborated with the Gender + Collective in the Office of Regional and International Community Engagement and co- created a Community-Based Research & Data Justice Resource Guide. Alexandria also holds a BSc in Mathematics from the University of British Colombia.
 
 ### disciplines + interests:
 
