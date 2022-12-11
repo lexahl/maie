@@ -25,10 +25,9 @@ Our bodies consist of more individual microorganisms than human cells and the in
 ![Energy Exchange arduino board at the Ars Electronica Festival 2022](https://lexahl.github.io/maie/img/energyexchange.png "Energy Exchange at the Ars Electronica Festival 2022")
 
 
-
 Creators:
 Alexandria Ahluwalia (CA)
-Roham Ebrahimi Haghro(IR)
+Roham Ebrahimi Haghro (IR)
 Coralie Huber (AT)
 Natalia Marin (RO)
 Cosmo Schüppel (DE)
