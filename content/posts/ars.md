@@ -22,6 +22,9 @@ Energy usage can often be concealed by comfort and ease, but the production of e
 Our bodies consist of more individual microorganisms than human cells and the interactions within our species, with nature and other living beings, and finally, our interaction with technology and artificial systems connect us. We as humans are not exceptional. Energy Exchange is an opportunity for the audience of Ars Electronica Festival to engage with the energy carried around with them, and demands that we reconsider energy infrastructures and excessive energy consumption.
 
 
+![Energy Exchange arduino board at the Ars Electronica Festival 2022](https://lexahl.github.io/maie/img/energyexchange.png "Energy Exchange at the Ars Electronica Festival 2022")
+
+
 
 Creators:
 Alexandria Ahluwalia (CA)
